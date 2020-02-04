@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E3F262323E9DDDB00250580 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3F262223E9DDDB00250580 /* Item.swift */; };
 		8EA26E2723E88CF5009AE48D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA26E2623E88CF5009AE48D /* AppDelegate.swift */; };
 		8EA26E2923E88CF5009AE48D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA26E2823E88CF5009AE48D /* SceneDelegate.swift */; };
 		8EA26E2B23E88CF5009AE48D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA26E2A23E88CF5009AE48D /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E3F262223E9DDDB00250580 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		8EA26E2323E88CF5009AE48D /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA26E2623E88CF5009AE48D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EA26E2823E88CF5009AE48D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				8EA26E2623E88CF5009AE48D /* AppDelegate.swift */,
 				8EA26E2823E88CF5009AE48D /* SceneDelegate.swift */,
 				8EA26E2A23E88CF5009AE48D /* ViewController.swift */,
+				8E3F262223E9DDDB00250580 /* Item.swift */,
 				8EA26E2C23E88CF5009AE48D /* Main.storyboard */,
 				8EA26E2F23E88CF6009AE48D /* Assets.xcassets */,
 				8EA26E3123E88CF6009AE48D /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E3F262323E9DDDB00250580 /* Item.swift in Sources */,
 				8EA26E2B23E88CF5009AE48D /* ViewController.swift in Sources */,
 				8EA26E2723E88CF5009AE48D /* AppDelegate.swift in Sources */,
 				8EA26E2923E88CF5009AE48D /* SceneDelegate.swift in Sources */,
