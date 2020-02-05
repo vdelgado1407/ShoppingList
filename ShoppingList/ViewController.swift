@@ -20,21 +20,28 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         let item1 = item(name: "Milk")
         let item2 = item(name: "Eggs")
+        let item3 = item(name: "Chocolate")
         
-        items = [item1,item2]
+        items = [item1,item2,item3]
     }
 
     @IBAction func whenButtonPressed(_ sender: Any) {
-        
+        if let newItemName = itemTextField.text {
+            let Item = item(name: newItemName)
+            items.append(Item)
+            tableView.reloadData()
+            itemTextField.text = ""
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 6
+        return items.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
-        cell.textLabel?.text = "Hello"
+        let currentItem = items[indexPath.row]
+        cell.textLabel?.text = currentItem.name
         return cell
     }
 }
